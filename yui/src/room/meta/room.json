@@ -1,0 +1,13 @@
+{
+  "moodle-mod_openwebinar-room": {
+    "requires": [
+      "base",
+      "node",
+      "io",
+      "anim",
+      "panel",
+      "json-stringify",
+      "json-parse"
+    ]
+  }
+}

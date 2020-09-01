@@ -1,0 +1,10 @@
+{
+  "name": "moodle-mod_openwebinar-room",
+  "builds": {
+    "moodle-mod_openwebinar-room": {
+      "jsfiles": [
+        "room.js"
+      ]
+    }
+  }
+}

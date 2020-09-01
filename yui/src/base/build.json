@@ -1,0 +1,10 @@
+{
+  "name": "moodle-mod_openwebinar-base",
+  "builds": {
+    "moodle-mod_openwebinar-base": {
+      "jsfiles": [
+        "base.js"
+      ]
+    }
+  }
+}
