@@ -23,9 +23,9 @@
  * @copyright 2015 MoodleFreak.com
  * @author    Luuk Verhoeven
  **/
-$string['modulename'] = 'MoodleFreak Openwebinar';
-$string['modulenameplural'] = 'MoodleFreak Openwebinar';
-$string['modulename_help'] = 'Openwebinar activity:<br/>
+$string['modulename'] = 'UOM Online Class';
+$string['modulenameplural'] = 'UOM Online Class';
+$string['modulename_help'] = 'Online Class activity:<br/>
 <b>Room</b>
 <ul>
 	<li>The chatroom is responsive</li>
@@ -54,7 +54,7 @@ $string['modulename_help'] = 'Openwebinar activity:<br/>
 <b>Broadcaster</b>
 <ul>
 	<li>Can mute chat message by usertype</li>
-	<li>Closing a openwebinar</li>
+	<li>Closing a Online Class</li>
 	<li>Create questions inside the chat</li>
 </ul>
 <b>Users</b>
@@ -80,32 +80,32 @@ $string['modulename_help'] = 'Openwebinar activity:<br/>
 </ul>
 <b>User log</b>
 <ul>
-	<li>Time a user was available in the openwebinar</li>
-	<li>See who viewed the openwebinar</li>
+	<li>Time a user was available in the Online Class</li>
+	<li>See who viewed the Online Class</li>
 	<li>You can view chat history of a user.</li>
 </ul>';
 
 $string['modulename_link'] = 'mod/openwebinar/view';
-$string['pluginadministration'] = 'MoodleFreak Openwebinar administration';
-$string['pluginname'] = 'MoodleFreak Openwebinar';
+$string['pluginadministration'] = 'UOM Online Class administration';
+$string['pluginname'] = 'UOM Online Class';
 $string['openwebinarfieldset'] = 'Custom example fieldset';
-$string['openwebinarname'] = 'MoodleFreak Openwebinar';
-$string['openwebinarname_help'] = 'The name of the openwebinar';
-$string['openwebinar'] = 'MoodleFreak Openwebinar';
+$string['openwebinarname'] = 'UOM Online Class';
+$string['openwebinarname_help'] = 'The name of the Online Class';
+$string['openwebinar'] = 'UOM Online Class';
 $string['task:auto_close'] = 'Auto close rooms if they expired and not closed by broadcaster.';
 $string['task:reminder'] = 'Send reminders';
 $string['task:feedback'] = 'Send feedback mail';
-$string['messageprovider:reminder'] = 'Openwebinar reminder notifications';
+$string['messageprovider:reminder'] = 'Online Class reminder notifications';
 
 // ACCESS.
-$string['openwebinar:history'] = 'Allow viewing openwebinar history';
-$string['openwebinar:view'] = 'Allow viewing openwebinar';
-$string['openwebinar:addinstance'] = 'Add an openwebinar';
-$string['openwebinar:manager'] = 'Openwebinar manager';
-$string['openwebinar:teacher'] = 'Openwebinar teacher';
+$string['openwebinar:history'] = 'Allow viewing Online Class history';
+$string['openwebinar:view'] = 'Allow viewing Online Class';
+$string['openwebinar:addinstance'] = 'Add an Online Class';
+$string['openwebinar:manager'] = 'Online Class manager';
+$string['openwebinar:teacher'] = 'Online Class teacher';
 
 // ERRORS.
-$string['error:openwebinar_notfound'] = 'Error: We can\'t get the correct openwebinar!';
+$string['error:openwebinar_notfound'] = 'Error: We can\'t get the correct Online Class!';
 $string['error:file_not_exits'] = 'Error: This file doesn\'t exist or has been removed!';
 $string['error:file_no_access'] = 'Error: No access to this file!';
 $string['error:no_access'] = 'Error: missing capability to fulfill task.';
@@ -115,30 +115,30 @@ $string['error:not_for_guests'] = 'Error: not available for Guests';
 
 // SETTINGS.
 $string['setting:heading_server'] = 'Communication settings';
-$string['setting:heading_instance_features'] = 'Features enabled or disabled (can be overridden in each openwebinar activity)';
+$string['setting:heading_instance_features'] = 'Features enabled or disabled (can be overridden in each Online Class activity)';
 $string['setting:streaming_server'] = 'Streaming url';
 $string['setting:streaming_server_desc'] = 'The location of your streaming server';
 $string['setting:chat_server'] = 'Chat/socket url';
 $string['setting:chat_server_desc'] = 'The location of your chat server';
 $string['setting:shared_secret'] = 'Shared secret';
 $string['setting:shared_secret_desc'] = 'A unique key that is shared with the chat/streaming server';
-$string['setting:heading_instance_defaults'] = 'Reminder default values (can be overridden in each openwebinar activity)';
+$string['setting:heading_instance_defaults'] = 'Reminder default values (can be overridden in each Online Class activity)';
 $string['setting:reminder_1'] = 'Reminder 1';
-$string['setting:reminder_1_desc'] = 'Notification moment before the start of the openwebinar.<br> Set to 0 to disable the
+$string['setting:reminder_1_desc'] = 'Notification moment before the start of the Online Class.<br> Set to 0 to disable the
  notification';
 $string['setting:reminder_2'] = 'Reminder 2';
-$string['setting:reminder_2_desc'] = 'Notification moment before the start of the openwebinar.<br> Set to 0 to disable the
+$string['setting:reminder_2_desc'] = 'Notification moment before the start of the Online Class.<br> Set to 0 to disable the
  notification';
 $string['setting:reminder_3'] = 'Reminder 3';
-$string['setting:reminder_3_desc'] = 'Notification moment before the start of the openwebinar.<br> Set to 0 to disable the
+$string['setting:reminder_3_desc'] = 'Notification moment before the start of the Online Class.<br> Set to 0 to disable the
  notification';
 $string['setting:reminder_4'] = 'Reminder 4';
-$string['setting:reminder_4_desc'] = 'Notification moment before the start of the openwebinar.<br> Set to 0 to disable the
+$string['setting:reminder_4_desc'] = 'Notification moment before the start of the Online Class.<br> Set to 0 to disable the
  notification';
 $string['setting:stream'] = 'Streaming enabled';
-$string['setting:stream_desc'] = 'If disabled the openwebinar don\'t show a video player';
+$string['setting:stream_desc'] = 'If disabled the Online Class don\'t show a video player';
 $string['setting:chat'] = 'Chat enabled';
-$string['setting:chat_desc'] = 'If disabled the openwebinar don\'t show a chat room';
+$string['setting:chat_desc'] = 'If disabled the Online Class don\'t show a chat room';
 $string['setting:filesharing'] = 'Filesharing enabled';
 $string['setting:filesharing_desc'] = 'If disabled, sharing of files in the file drop zone not possible.';
 $string['setting:filesharing_student'] = 'Allow students to share their files';
@@ -166,14 +166,14 @@ $string['setting:multi_domain_hostname_desc'] = 'When you are using more domain 
 
 
 // Mod settings.
-$string['mod_setting:settings'] = 'Openwebinar features';
-$string['mod_setting:timing'] = 'Openwebinar time';
+$string['mod_setting:settings'] = 'Online Class features';
+$string['mod_setting:timing'] = 'Online Class time';
 $string['mod_setting:timeopen'] = 'Start';
 $string['mod_setting:timeopenhelp'] = 'Start';
 $string['mod_setting:timeopenhelp_help'] = 'Start';
 $string['mod_setting:make_a_selection'] = 'Select a selection';
-$string['mod_setting:broadcaster'] = 'Openwebinar broadcaster';
-$string['mod_setting:reminders'] = 'Openwebinar reminder messages';
+$string['mod_setting:broadcaster'] = 'Online Class broadcaster';
+$string['mod_setting:reminders'] = 'Online Class reminder messages';
 $string['mod_setting:duration'] = 'Duration';
 $string['mod_setting:durationhelp'] = 'Duration';
 $string['mod_setting:durationhelp_help'] = 'Duration';
@@ -183,26 +183,26 @@ $string['mod_setting:feedback'] = 'Feedback';
 $string['mod_setting:feedback_field'] = 'Feedback';
 
 // Text.
-$string['text:live_openwebinar'] = '<br/>The openwebinar is open from: <b>{$a->timeopen}</b><br> You can enter the openwebinar by
+$string['text:live_openwebinar'] = '<br/>The Online Class is open from: <b>{$a->timeopen}</b><br> You can enter the Online Class by
  pressing the button below';
 $string['text:broadcaster_help'] = '<h3>You are the broadcaster</h3><br>Broadcastkey:<br>
 <b class="selectable">{$a->broadcastkey}</b>
 <br><br>
 Make sure you install the streaming software: <br/><a href="https://obsproject.com/" target="_blank">Open Broadcaster Software</a>';
-$string['text:history'] = '<h3>Openwebinar is offline</h3>This openwebinar was given on <b>{$a->timeopen}</b>. <br/><br/>You can
-still view the history in this openwebinar by clicking on the button below.';
+$string['text:history'] = '<h3>Online Class is offline</h3>This Online Class was given on <b>{$a->timeopen}</b>. <br/><br/>You can
+still view the history in this Online Class by clicking on the button below.';
 $string['text:useractivity'] = 'User activity';
 
 // Buttons.
-$string['btn:enter_live_openwebinar'] = 'Enter live openwebinar';
-$string['btn:enter_offline_openwebinar'] = 'Enter offline openwebinar';
+$string['btn:enter_live_openwebinar'] = 'Enter live Online Class';
+$string['btn:enter_offline_openwebinar'] = 'Enter offline Online Class';
 $string['btn:chattime'] = 'Report';
 $string['btn:chatlog'] = 'Chatlog';
 $string['btn:view'] = 'View';
 $string['btn:back'] = 'Back';
 $string['btn:addquestion'] = 'Add a new question';
 $string['btn:open'] = 'Save';
-$string['btn:broadcast_enter'] = 'Enter openwebinar';
+$string['btn:broadcast_enter'] = 'Enter Online Class';
 $string['btn:offline_questions'] = 'Make questions templates';
 $string['btn:select_template_question'] = 'Select template question';
 
@@ -230,8 +230,8 @@ $string['student'] = 'Student';
 $string['guest'] = 'Guest';
 $string['teacher'] = 'Teacher';
 $string['message_placeholder'] = 'Type a message here....';
-$string['user_activity'] = 'Openwebinar user activity';
-$string['starts_at'] = 'Openwebinar starts in:';
+$string['user_activity'] = 'Online Class user activity';
+$string['starts_at'] = 'Online Class starts in:';
 $string['starttime'] = 'start time';
 $string['Close'] = 'Close';
 
@@ -244,8 +244,8 @@ $string['opt:stream'] = 'Show stream';
 $string['opt:userlist'] = 'Show userlist';
 $string['opt:mute_students'] = 'Mute students';
 $string['opt:mute_teachers'] = 'Mute teachers';
-$string['opt:endopenwebinar'] = 'Close & end the openwebinar';
-$string['opt:leave'] = 'Leave openwebinar';
+$string['opt:endopenwebinar'] = 'Close & end the Online Class';
+$string['opt:leave'] = 'Leave class';
 $string['opt:header_general'] = 'General';
 
 // Js.
@@ -254,7 +254,7 @@ $string['js:my_answer_saved'] = 'Your answer has been saved.';
 $string['js:send'] = 'Send';
 $string['js:answer'] = 'Answer';
 $string['js:added_answer'] = '{$a->fullname} added an answer.';
-$string['js:ending_openwebinar'] = 'Are you sure you wan\'t to end and close the openwebinar?';
+$string['js:ending_openwebinar'] = 'Are you sure you wan\'t to end and close the class?';
 $string['js:muted'] = 'The messages are muted by the broadcaster!';
 $string['js:wait_on_connection'] = 'Waiting';
 $string['js:joined'] = 'Welcome to the chatroom.';
@@ -263,11 +263,11 @@ $string['js:reconnected'] = 'You are reconnected.';
 $string['js:script_user'] = 'System message';
 $string['js:system_user'] = 'Chat server';
 $string['js:connecting'] = 'Connecting to the chat server, please be patient.';
-$string['js:warning_message_closing_window'] = 'Are you sure you want to exit the openwebinar?';
-$string['js:error_logout_or_lostconnection'] = 'Connection lost! Or your session is expired. Please reload the openwebinar.';
-$string['js:dialog_ending_text'] = 'Broadcaster has closed the openwebinar. You will be redirect to Moodle.';
-$string['js:dialog_ending_btn'] = 'Close openwebinar';
-$string['js:ended'] = 'Broadcaster has closed the openwebinar.';
+$string['js:warning_message_closing_window'] = 'Are you sure you want to exit the class?';
+$string['js:error_logout_or_lostconnection'] = 'Connection lost! Or your session is expired. Please reload the class.';
+$string['js:dialog_ending_text'] = 'Broadcaster has closed the class. You will be redirect to Moodle.';
+$string['js:dialog_ending_btn'] = 'Close class';
+$string['js:ended'] = 'Broadcaster has closed the class.';
 $string['js:chat_commands'] = '<h4>Error: unknown command</h4>
 <p>What are the available chat commands</p>
 <b>Users:</b>
@@ -295,10 +295,10 @@ $string['heading:name'] = 'Name';
 $string['heading:value'] = 'Value';
 
 // Email.
-$string['mail:reminder_subject'] = 'Openwebinar reminder: {$a->name}';
+$string['mail:reminder_subject'] = 'Online Class reminder: {$a->name}';
 $string['mail:reminder_message'] = 'Dear ##fullname##, <br/><br/>
 
-Openwebinar Reminder for:<br/><br/>
+Online Class Reminder for:<br/><br/>
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
@@ -315,7 +315,7 @@ Openwebinar Reminder for:<br/><br/>
     </tr>
     <tr>
         <td><b>Link</b></td>
-        <td><a href="##link##">Enter openwebinar</a> </td>
+        <td><a href="##link##">Enter Online class</a> </td>
     </tr>
 </table>
 <br/>
@@ -327,7 +327,7 @@ $string['fullname'] = 'Fullname';
 $string['skype'] = 'Skype';
 $string['load_history'] = 'Load previous messages';
 
-$string['mail:feedback_subject'] = 'Openwebinar feedback: {$a->name}';
+$string['mail:feedback_subject'] = 'Online Class feedback: {$a->name}';
 $string['mail:feedback_message'] = 'Dear {$a->firstname}, <br/><br/>
 <b>Webinar feedback request for: {$a->name}</b><br/>
 We\'d really appreciate if you could fill in a short feedback.<br/><br/>

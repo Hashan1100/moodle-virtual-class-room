@@ -23,7 +23,7 @@
 }
 
 #page-mod-openwebinar-view_openwebinar {
-    background: #fff;
+    background: #070708;
     padding: 0;
     margin: 0;
     font-size: 13px;
@@ -40,9 +40,10 @@
 }
 
 #page-mod-openwebinar-view_openwebinar header {
+    color: #ffffff;
     margin: 0 20px 10px 20px;
     padding: 5px 20px;
-    background: #F5F5F5;
+    background: #343a40;
 }
 
 #page-mod-openwebinar-view_openwebinar header {
@@ -122,6 +123,7 @@
 #openwebinar-holder {
     overflow: hidden;
     min-height: 100%;
+    background: #070708;
 }
 
 #openwebinar-right {
@@ -138,7 +140,8 @@
 
 #page-mod-openwebinar-view_openwebinar .openwebinar-header {
     height: 35px;
-    background: #F5F5F5;
+    background: #292929;
+    color: #ffffff;
     line-height: 35px;
     vertical-align: middle;
     overflow: hidden;
@@ -147,6 +150,7 @@
 
 #page-mod-openwebinar-view_openwebinar .openwebinar-header h2 {
     margin: 0;
+    color: #ffffff;
     padding: 0 10px;
     font-size: 14px;
     font-weight: bold;
@@ -265,18 +269,18 @@
 }
 
 .openwebinar-chatlist .openwebinar-socketserver .message-container, .openwebinar-chatlist .openwebinar-local .message-container {
-    background: #F1F1F1;
+    background: #495057;
 }
 
 #page-mod-openwebinar-view_openwebinar .openwebinar-username {
-    color: #5484BC;
+    color: #f5d917;
     margin: 0 40px 0 0;
     float: left;
     font-weight: bold;
 }
 
 #page-mod-openwebinar-view_openwebinar .openwebinar-timestamp {
-    color: #5484BC;
+    color: #f5d917;
     float: right;
     font-size: 10px;
     text-align: right;
@@ -285,6 +289,7 @@
 
 .openwebinar-chatlist .openwebinar-message {
     word-wrap: break-word;
+    color: #ffffff;
     display: block;
     width: 100%;
     float: left;
@@ -378,7 +383,7 @@ input[type="text"].openwebinar-message-input {
 }
 
 #openwebinar-topbar {
-    background: #4D68A1;
+    background: #343a40;
     height: 50px;
     width: 100%;
     position: fixed;
@@ -422,9 +427,9 @@ input[type="text"].openwebinar-message-input {
     height: 50px;
     line-height: 50px;
     cursor: pointer;
-    background: #3c5582;
+    background: #343a40;
     padding: 0 10px 0 0;
-    border-right: 1px solid #23355B;
+    border-right: 1px solid #070708;
 }
 
 #openwebinar-topbar-left .arrow {
@@ -451,7 +456,7 @@ input[type="text"].openwebinar-message-input {
     color: #fff;
     cursor: pointer;
     font-size: 14px;
-    background: #adadad;
+    background: #2dcb73;
     padding: 2px 5px;
     border-radius: 3px;
     margin-right: 5px;

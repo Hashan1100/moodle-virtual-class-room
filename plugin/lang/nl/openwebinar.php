@@ -9,8 +9,8 @@
  * @copyright 2015 MoodleFreak.com
  * @author    Luuk Verhoeven
  **/
-$string['modulename'] = 'MoodleFreak Openwebinar';
-$string['modulenameplural'] = 'MoodleFreak Openwebinar';
+$string['modulename'] = 'UOM Online Class';
+$string['modulenameplural'] = 'UOM Online Class';
 $string['modulename_help'] = 'Openwebinar activiteit:<br/>
 <b>Room</b>
 <ul>
@@ -72,11 +72,11 @@ $string['modulename_help'] = 'Openwebinar activiteit:<br/>
 </ul>';
 
 $string['modulename_link'] = 'mod/openwebinar/view';
-$string['pluginadministration'] = 'MoodleFreak openwebinar administrator';
-$string['pluginname'] = 'MoodleFreak openwebinar';
-$string['openwebinarname'] = 'MoodleFreak openwebinar';
+$string['pluginadministration'] = 'UOM Online Class administrator';
+$string['pluginname'] = 'UOM Online Class';
+$string['openwebinarname'] = 'UOM Online Class';
 $string['openwebinarname_help'] = 'De naam van de openwebinar';
-$string['openwebinar'] = 'MoodleFreak openwebinar';
+$string['openwebinar'] = 'UOM Online Class';
 $string['task:auto_close'] = 'Sluit chatruimte wanneer deze is afgelopen en niet is afgesloten door de presentator.';
 $string['task:reminder'] = 'Versturen van herinnering';
 $string['task:feedback'] = 'Versturen van feedback e-mail';
